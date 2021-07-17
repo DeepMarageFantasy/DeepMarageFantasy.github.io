@@ -35,7 +35,7 @@
                 */
                 for(var i = 0;i<album.length;i++){
                     var p = album[i];
-                    var q = ['<div class="col-md-3"><img onclick=',"'$(this).attr(",'"id","active");set();',"' id=",'"view" class="img-responsive" src="',p,'" alt="',p,'" data-toggle="modal" data-target="#myModal" ></div>'];
+                    var q = ['<div class="col-md-3"><img onclick=',"'$(this).attr(",'"id","active");set();',"' id=",'"view" class="img-responsive"; src="',p,'" alt="',p,'" data-toggle="modal" data-target="#myModal" ></div>'];
                     $("#album").append(q.join(""));
                     console.log(q.join(""));
                     /*
